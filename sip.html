@@ -21,24 +21,51 @@
 
   <main>
     <section class="calculator-section">
-      <h2>SIP Calculator</h2>
+      <h1>SIP Calculator</h1>
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="sip-amount">Monthly Investment (₹):</label>
-          <input type="number" id="sip-amount" placeholder="e.g., 5000">
-
-          <label for="sip-duration">Investment Duration (Years):</label>
-          <input type="number" id="sip-duration" placeholder="e.g., 10">
-
-          <label for="sip-rate">Expected Annual Return (%):</label>
-          <input type="number" id="sip-rate" placeholder="e.g., 12">
-
-          <button onclick="calculateSIP()">Calculate SIP</button>
+        <div class="input-group">
+          <label for="total-investment">Total Investment (₹):</label>
+          <input type="number" id="total-investment" placeholder="e.g., 25000">
         </div>
+
+        <div class="input-group">
+          <label for="return-rate">Expected Return Rate (p.a %):</label>
+          <input type="number" id="return-rate" placeholder="e.g., 12">
+        </div>
+
+        <div class="input-group">
+          <label for="time-period">Time Period (Years):</label>
+          <input type="number" id="time-period" placeholder="e.g., 10">
+        </div>
+
+        <button onclick="calculateSIP()">Calculate</button>
+
         <div class="result">
-          <h3>Maturity Amount: ₹<span id="sip-result">0</span></h3>
+          <h3>Invested Amount: ₹<span id="invested-amount">0</span></h3>
+          <h3>Est. Returns: ₹<span id="est-returns">0</span></h3>
+          <h3>Total Value: ₹<span id="total-value">0</span></h3>
         </div>
       </div>
+    </section>
+
+    <section class="cta-section">
+      <h2>Invest the way you want</h2>
+      <p>Join millions of Indians who trust and love Groww</p>
+      <a href="#" class="cta-button">EXPLORE PRODUCTS</a>
+    </section>
+
+    <section class="popular-calculators">
+      <h2>Popular Calculators</h2>
+      <ul>
+        <li><a href="sip.html">SIP Calculator</a></li>
+        <li><a href="swp.html">SWP Calculator</a></li>
+        <li><a href="mutual-funds.html">Mutual Fund Returns Calculator</a></li>
+        <li><a href="sukanya.html">Sukanya Samriddhi Yojana Calculator</a></li>
+        <li><a href="income-tax.html">Income Tax Calculator</a></li>
+        <li><a href="ppf.html">PPF Calculator</a></li>
+        <li><a href="epf.html">EPF Calculator</a></li>
+        <li><a href="fd.html">FD Calculator</a></li>
+      </ul>
     </section>
   </main>
 
