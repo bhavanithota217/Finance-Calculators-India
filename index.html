@@ -29,110 +29,46 @@
       <p>Calculate EMIs, SIPs, Taxes, and more with ease.</p>
     </section>
 
-    <!-- EMI Calculator Section -->
-    <section id="emi-calculator" class="calculator-section">
-      <h2>EMI Calculator</h2>
+    <!-- Calculator Grid -->
+    <section class="calculator-grid">
+      <!-- EMI Calculator Card -->
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="loan-amount">Loan Amount (₹):</label>
-          <input type="number" id="loan-amount" placeholder="e.g., 500000">
-
-          <label for="interest-rate">Interest Rate (%):</label>
-          <input type="number" id="interest-rate" placeholder="e.g., 8.5">
-
-          <label for="loan-tenure">Loan Tenure (Years):</label>
-          <input type="number" id="loan-tenure" placeholder="e.g., 5">
-
-          <button onclick="calculateEMI()">Calculate EMI</button>
-        </div>
-        <div class="result">
-          <h3>Your EMI: ₹<span id="emi-result">0</span></h3>
-        </div>
+        <a href="emi.html">
+          <img src="assets/emi.jpg" alt="EMI Calculator">
+          <h2>EMI Calculator</h2>
+        </a>
       </div>
-    </section>
 
-    <!-- SIP Calculator Section -->
-    <section id="sip-calculator" class="calculator-section">
-      <h2>SIP Calculator</h2>
+      <!-- SIP Calculator Card -->
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="sip-amount">Monthly Investment (₹):</label>
-          <input type="number" id="sip-amount" placeholder="e.g., 5000">
-
-          <label for="sip-duration">Investment Duration (Years):</label>
-          <input type="number" id="sip-duration" placeholder="e.g., 10">
-
-          <label for="sip-rate">Expected Annual Return (%):</label>
-          <input type="number" id="sip-rate" placeholder="e.g., 12">
-
-          <button onclick="calculateSIP()">Calculate SIP</button>
-        </div>
-        <div class="result">
-          <h3>Maturity Amount: ₹<span id="sip-result">0</span></h3>
-        </div>
+        <a href="sip.html">
+          <img src="assets/sip.jpg" alt="SIP Calculator">
+          <h2>SIP Calculator</h2>
+        </a>
       </div>
-    </section>
 
-    <!-- FD Calculator Section -->
-    <section id="fd-calculator" class="calculator-section">
-      <h2>Fixed Deposit Calculator</h2>
+      <!-- FD Calculator Card -->
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="fd-amount">Deposit Amount (₹):</label>
-          <input type="number" id="fd-amount" placeholder="e.g., 100000">
-
-          <label for="fd-rate">Interest Rate (%):</label>
-          <input type="number" id="fd-rate" placeholder="e.g., 6.5">
-
-          <label for="fd-tenure">Tenure (Years):</label>
-          <input type="number" id="fd-tenure" placeholder="e.g., 5">
-
-          <button onclick="calculateFD()">Calculate FD</button>
-        </div>
-        <div class="result">
-          <h3>Maturity Amount: ₹<span id="fd-result">0</span></h3>
-        </div>
+        <a href="fd.html">
+          <img src="assets/fd.jpg" alt="FD Calculator">
+          <h2>FD Calculator</h2>
+        </a>
       </div>
-    </section>
 
-    <!-- GST Calculator Section -->
-    <section id="gst-calculator" class="calculator-section">
-      <h2>GST Calculator</h2>
+      <!-- GST Calculator Card -->
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="gst-amount">Amount (₹):</label>
-          <input type="number" id="gst-amount" placeholder="e.g., 1000">
-
-          <label for="gst-rate">GST Rate (%):</label>
-          <input type="number" id="gst-rate" placeholder="e.g., 18">
-
-          <button onclick="calculateGST()">Calculate GST</button>
-        </div>
-        <div class="result">
-          <h3>GST Amount: ₹<span id="gst-result">0</span></h3>
-        </div>
+        <a href="gst.html">
+          <img src="assets/gst.jpg" alt="GST Calculator">
+          <h2>GST Calculator</h2>
+        </a>
       </div>
-    </section>
 
-    <!-- PPF Calculator Section -->
-    <section id="ppf-calculator" class="calculator-section">
-      <h2>PPF Calculator</h2>
+      <!-- PPF Calculator Card -->
       <div class="calculator-card">
-        <div class="calculator-form">
-          <label for="ppf-amount">Annual Investment (₹):</label>
-          <input type="number" id="ppf-amount" placeholder="e.g., 50000">
-
-          <label for="ppf-rate">Interest Rate (%):</label>
-          <input type="number" id="ppf-rate" placeholder="e.g., 7.1">
-
-          <label for="ppf-tenure">Tenure (Years):</label>
-          <input type="number" id="ppf-tenure" placeholder="e.g., 15">
-
-          <button onclick="calculatePPF()">Calculate PPF</button>
-        </div>
-        <div class="result">
-          <h3>Maturity Amount: ₹<span id="ppf-result">0</span></h3>
-        </div>
+        <a href="ppf.html">
+          <img src="assets/ppf.jpg" alt="PPF Calculator">
+          <h2>PPF Calculator</h2>
+        </a>
       </div>
     </section>
   </main>
@@ -140,7 +76,5 @@
   <footer>
     <p>&copy; 2023 Finance Calculators. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
