@@ -1,4 +1,3 @@
-// script.js
 // EMI Calculator
 function calculateEMI() {
   const loanAmount = parseFloat(document.getElementById('loan-amount').value);
